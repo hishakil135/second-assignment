@@ -1,0 +1,247 @@
+body {
+  margin: 0;
+  font-family: "Work Sans", sans-serif;
+}
+/* Header Section */
+.header {
+  background: rgba(255, 144, 14, 0.1);
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 240px 0px 228px;
+}
+.nav-title {
+  font-size: 45px;
+  color: #131313;
+}
+nav ul {
+  display: flex;
+  gap: 60px;
+  list-style: none;
+  font-size: 18px;
+  color: #424242;
+}
+/* Banner section */
+.banner-title {
+  color: #131313;
+  font-size: 64px;
+  text-align: center;
+}
+.banner-description {
+  color: #727272;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+}
+.btn-primary {
+  width: 180px;
+  height: 64px;
+  background: #ff900e;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 22px;
+  margin: 20px 800px 50px 800px;
+}
+.banner-image {
+  height: 700px;
+  width: 1280px;
+  margin: 10px 240px 45px 250px;
+}
+/* Main section */
+/* Quick List Section */
+.quick-list {
+  margin: 85px 301px 130px 301px;
+}
+.quick-image {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-row-gap: 24px;
+  grid-column-gap: 24px;
+}
+.quick-work {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.section-description {
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+  margin: 24px 0 32px 43px;
+}
+.section-title {
+  margin-left: 43px;
+}
+#title-style1 {
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 53px;
+  color: #727272;
+}
+#title-style2 {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  color: #131313;
+}
+#title-style3 {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  color: #ff900e;
+}
+.btn-primary1 {
+  width: 180px;
+  height: 64px;
+  background: #ff900e;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 22px;
+  margin-left: 43px;
+}
+/* Feature Section */
+.feature {
+  width: 1440px;
+  margin: 0 auto;
+}
+.features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 146px;
+}
+.all-features {
+  display: grid;
+  grid-template-columns: repeat(1fr);
+  grid-column-gap: 20px;
+}
+.feature-title {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  color: #131313;
+  padding-left: 21px;
+  border-left: 5px solid #ff900e;
+}
+.feature-title1 {
+  margin: 0;
+  font-weight: 600;
+  font-size: 20px;
+  color: #131313;
+}
+.feature-description {
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+}
+.feature-box {
+  padding: 30px;
+  background: #ffffff;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+.experience-btn {
+  width: 342px;
+  height: 200px;
+  background: #ff900e;
+  border-radius: 8px;
+  border: none;
+  font-weight: 500;
+  font-size: 25px;
+  color: white;
+  margin: -100px 108px 130px 640px;
+}
+.experience-btn span {
+  font-weight: 700;
+  font-size: 65px;
+  color: white;
+  text-align: center;
+}
+.facts-title {
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+  margin: 0 0 24px 200px;
+}
+.facts-description {
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+  margin: 0 0 108px 200px;
+}
+/* Award section */
+.award {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 124px;
+  margin: 0 260px;
+}
+.award-box {
+  border: 1px solid #ff900e;
+  border-radius: 8px;
+  padding: 45px 35px;
+  text-align: center;
+  margin-bottom: 180px;
+}
+.award-title {
+  font-weight: 600;
+  font-size: 45px;
+  color: #424242;
+  margin: 0;
+}
+.award-description {
+  font-weight: 600;
+  font-size: 20px;
+  color: #727272;
+  margin: 0;
+}
+/* Sponsors Section */
+.sponsors-section-title {
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+  text-align: center;
+  margin: 0;
+}
+.sponsors-section-description {
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+  text-align: center;
+  margin-top: 24px;
+  margin-bottom: 50px;
+}
+.all-sponsors {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 155px;
+  margin-bottom: 130px;
+}
+/* Footer Section */
+footer {
+  width: 1440px;
+  height: 100px;
+  background: #fff4e7;
+  border-radius: 8px;
+  margin-left: 175px;
+  margin-bottom: 200px;
+}
+.footer-description {
+  font-weight: 400;
+  font-size: 20px;
+  color: #424242;
+  text-align: center;
+  padding: 38px 10px;
+}
